@@ -1,0 +1,34 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -D CMAKE_C_COMPILER=/Library/Developer/CommandLineTools/usr -G "CodeBlocks - Unix Makefiles" /Users/thvadora/Documents/dev/FaMAF/Algo2/ayed2-2018/semana06
+-- The C compiler identification is unknown
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr -- broken
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/Library/Developer/CommandLineTools/usr"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/thvadora/Documents/dev/FaMAF/Algo2/ayed2-2018/semana06/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/usr/bin/make" "cmTC_13a2d/fast"
+    /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_13a2d.dir/build.make CMakeFiles/cmTC_13a2d.dir/build
+    Building C object CMakeFiles/cmTC_13a2d.dir/testCCompiler.c.o
+    /Library/Developer/CommandLineTools/usr    -o CMakeFiles/cmTC_13a2d.dir/testCCompiler.c.o   -c /Users/thvadora/Documents/dev/FaMAF/Algo2/ayed2-2018/semana06/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+    make[1]: /Library/Developer/CommandLineTools/usr: Permission denied
+    make[1]: *** [CMakeFiles/cmTC_13a2d.dir/testCCompiler.c.o] Error 1
+    make: *** [cmTC_13a2d/fast] Error 2
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/thvadora/Documents/dev/FaMAF/Algo2/ayed2-2018/semana06/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/thvadora/Documents/dev/FaMAF/Algo2/ayed2-2018/semana06/cmake-build-debug/CMakeFiles/CMakeError.log".
